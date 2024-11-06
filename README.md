@@ -29,9 +29,117 @@ My inspiration for this site is after an old _neighbor_ of mine, [Lil' Ronnies B
 For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn polish. The mood will, hopefully, suggest a lively back-yard BBQ feeling while holding a clean-cut and sleek appearance. Business in the front, party in the back.
 
 - Colors will be a mix of primarily blacks with nuetral browns and accented colors of yellow and salmon pink.
-  ![coolers BBQ palette](images/coolers.png
+  ![coolers BBQ palette](images/coolers.png)
 
 - Fonts will be a mix between Ubuntu and Athity, both simulate a relaxed typeface and pair nicely as a family.
 
 - Images will be a blend between found and sourced, their website and social media has a selection of their products. Many of the found images are planned to be used as textures. I will use their logo:
-  ![Big Brisket Logo](images/logo.webp
+  ![Big Brisket Logo](images/logo.webp)
+
+## Website Content
+
+### HomePage
+
+1. Header
+
+- Logo
+- Navigation Bar
+
+2. Hero
+
+- Background Image or Video: _BBQ being cooked_
+- Heading 1: "Delicious Smoked Brisket at Big Brisket Barbeque"
+
+3. About
+
+- Heading 2: "What We Do"
+- Paragraph: brief description about their process and ingrediants
+- Image: _image of plated food_
+
+4. Portfolio
+
+- Heading 2: "Smoked Meat, Done Right!"
+- Image carousel or cards: _photos of Big Brisket food_
+
+5. Testimonials
+
+- Heading 2: "Food That Cares"
+- 3 cards of made-up customer reviews: breif statement each with fictional names.
+
+6. Call-to-action
+
+- Heading 2: "Try Us Out"
+- Google Map Embed.
+
+7. Footer
+
+- Logo
+- Address
+- Contact Info
+- Navigation Bar
+
+## Menu Page
+
+1. Heading
+
+- Same as Homepage
+
+2. Small Hero
+
+- Heading 2: "Smoked Meat, Done Right!"
+- Background Image: _Close up of smoked Meat_
+
+3. Items
+
+- Heading 3: "Hand Helds"
+- Web Table with 4 Menu Items: (Name, Description, Price)
+- Heading 3: "Sides"
+- Web Table with 3 Items: (Name, Description, Price)
+
+4. Order
+
+- Heading 2: "Place an Order"
+- Heading 3: "Give us a Call to Place your Order"
+- Link button: Phone number
+
+5. Call-To-Action
+
+- Heading 2: "Need To Feed a Crowd?"
+- Contact Form: "Contact Us For Catering" (Name, Email, Phone Number, Message Inputs)
+
+6. Footer
+
+- Same as Homepage
+
+## About Page
+
+1. Heading
+
+- Same as Homepage
+
+2. Small Hero
+
+- Heading 2: About Us
+- Image: _People working around a BBQ_
+
+3. About
+
+- Heading 2: "The Team"
+- Image card: _Photo of owner_ & brief description of Big Brisket
+
+4. Operations
+
+- Heading 2: "Where and When to Find us"
+- Hours of Operation: list
+- Location: google maps embed
+
+5. Contact
+
+- Heading 2: "Contact Us"
+- Link Button: Email Address
+- Link Button: Phone Number
+-
+
+6. Footer
+
+- Same as Homepage
