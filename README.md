@@ -21,3 +21,17 @@ Beyond the syntax of the page, there are some more visual que's that do not exis
 3. Lasty, touching upon location one more time, having an embedded Google Maps on the Homepage and About page would lend a hand to those of us who have lost the survival skillset of navigating a town with our memory. Inputting an interactive map would grant access to the whereabouts without needing to tell you the go to Pilon Tools on Headquarters and follow the signs, like they do now.
 
 It is easy to identify simple design solutions that will help build a more logical strucutre of content throughout the website creating an easy and transactional experience for both customer's and Big Brisket.
+
+## Look and Feel
+
+My inspiration for this site is after an old _neighbor_ of mine, [Lil' Ronnies BBQ](https://www.lilronniesbbq.com/). This a local restuarant located in Tofino, BC and was initially just a man and his smoker. Their success breached both from their ability to whip up a hell of a margitas alongside their marketing strategies. They have designed an atmosphere digitally that matches the tone of their Tiki-hut _laid back_ attitudes, touching the hearts of hipsters and hippies alike. Owner, Ronnie Lee, has now gone on to open a catering business aligned with their BBQ and has fused together food with entertainment for all.
+
+For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn polish. The mood will, hopefully, suggest a lively back-yard BBQ feeling while holding a clean-cut and sleek appearance. Business in the front, party in the back.
+
+- Colors will be a mix of primarily blacks with nuetral browns and accented colors of yellow and salmon pink.
+  ![coolers BBQ palette](images/coolers.png)
+
+- Fonts will be a mix between Ubuntu and Athity, both simulate a relaxed typeface and pair nicely as a family.
+
+- Images will be a blend between found and sourced, their website and social media has a selection of their products. Many of the found images are planned to be used as textures. I will use their logo:
+  ![Big Brisket Logo](images/logo.webp)
