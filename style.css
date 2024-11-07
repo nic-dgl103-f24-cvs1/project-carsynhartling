@@ -71,6 +71,14 @@ a.button {
 
 /* ------ Header ------ */
 
+header {
+  background-color: #184762b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -79,6 +87,7 @@ nav {
 nav ul {
   color: #000;
   list-style-type: none;
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
   display: none;
@@ -93,7 +102,7 @@ nav .toggle {
   position: fixed;
   align-self: flex-end;
   cursor: pointer;
-  top: 32px;
+  top: 20px;
 }
 
 .show-items {
@@ -105,6 +114,26 @@ nav .toggle {
 
 /* ---- Home Hero ---- */
 
+/* Needs Backgorund Video */
+
 h1 {
   text-align: center;
+}
+
+/* ---- Home Action ---- */
+
+/*---------------- DeskTop Device -----------------------*/
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 6.6rem;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%;
+  }
+
+  .content-width {
+    width: 1130px;
+  }
 }
