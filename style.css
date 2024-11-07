@@ -45,10 +45,10 @@ h3 {
 }
 
 a {
+  color: #000;
   text-decoration: none;
   display: block;
-  margin: 16px 0;
-  padding: 12px 48px;
+  margin: 20px 50px 20px 0;
 }
 
 a.button {
@@ -76,7 +76,7 @@ nav {
   flex-direction: column;
 }
 
-nav li {
+nav ul {
   color: #000;
   list-style-type: none;
   margin: 0;
@@ -100,5 +100,11 @@ nav .toggle {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 50px;
+  margin-top: 60px;
+}
+
+/* ---- Home Hero ---- */
+
+h1 {
+  text-align: center;
 }
