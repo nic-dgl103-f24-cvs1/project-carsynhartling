@@ -48,35 +48,38 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 2. Hero
 
 - Background Image or Video: _BBQ being cooked_
-- Heading 1: "Delicious Smoked Brisket at Big Brisket Barbeque"
+- Header 1: "Delicious Smoked Brisket at Big Brisket Barbeque"
+- Paragraph: "Open Every Saturday, 11-4!"
 
-3. About
+3. About Content
 
 - Heading 2: "What We Do"
 - Paragraph: brief description about their process and ingrediants
 - Image: _image of plated food_
 
-4. Portfolio
+4. Portfolio Blog
 
 - Heading 2: "Smoked Meat, Done Right!"
-- Image carousel or cards: _photos of Big Brisket food_
+- 4 Image cards: _photos of Big Brisket food_
+- Linked button: "Menu"
 
 5. Testimonials
 
 - Heading 2: "Food That Cares"
 - 3 cards of made-up customer reviews: breif statement each with fictional names.
 
-6. Call-to-action
+6. Contact
 
 - Heading 2: "Try Us Out"
+- Paragraph: "Experience the best Barbecue Brisket in the Comox Valley"
+- List: Hours of Operation
 - Google Map Embed.
 
 7. Footer
 
 - Logo
-- Address
-- Contact Info
-- Navigation Bar
+- List: Instagram, X
+- List: Contacts (Phone, Address, Email)
 
 ## Menu Page
 
