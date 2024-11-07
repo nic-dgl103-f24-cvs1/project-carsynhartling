@@ -47,21 +47,20 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 
 2. Hero
 
-- Background Image or Video: _BBQ being cooked_
+- Background Video: _BBQ being cooked_ or _Flames and Smoker_
 - Header 1: "Delicious Smoked Brisket at Big Brisket Barbeque"
 - Paragraph: "Open Every Saturday, 11-4!"
 
-3. About Content
+3. Call-To-Action
 
-- Heading 2: "What We Do"
-- Paragraph: brief description about their process and ingrediants
-- Image: _image of plated food_
+- Heading 2: "Indulge in Mouthwatering BBQ"
+- Paragraph: "Treat yourself to real fire cooked BBQ. Smoked and Sourced 100% in the Comox Valley."
+- Buttin Link: "Menu"
 
 4. Portfolio Blog
 
 - Heading 2: "Smoked Meat, Done Right!"
 - 4 Image cards: _photos of Big Brisket food_
-- Linked button: "Menu"
 
 5. Testimonials
 
@@ -78,8 +77,8 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 7. Footer
 
 - Logo
-- List: Instagram, X
-- List: Contacts (Phone, Address, Email)
+- Social List: Instagram, X.com
+- Contact List: Phone, Address, Email
 
 ## Menu Page
 
@@ -102,12 +101,13 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 4. Order
 
 - Heading 2: "Place an Order"
-- Heading 3: "Give us a Call to Place your Order"
-- Link button: Phone number
+- Paragraph: "Give us a Call to Place your Order"
+- Link button: "250-714-5999"
 
 5. Call-To-Action
 
 - Heading 2: "Need To Feed a Crowd?"
+- Paragraph: "Do you have an upcoming event that needs some BBQ Brisket? Drop us a line, and we'll get back to you soon"
 - Contact Form: "Contact Us For Catering" (Name, Email, Phone Number, Message Inputs)
 
 6. Footer
@@ -122,26 +122,26 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 
 2. Small Hero
 
-- Heading 2: About Us
+- Heading 2: "About Us"
 - Image: _People working around a BBQ_
 
-3. About
+3. About Team
 
-- Heading 2: "The Team"
-- Image card: _Photo of owner_ & brief description of Big Brisket
+- Heading 2: "Jordan Sorrenti"
+- Paragraph: "a foodie who just can't retire. He loves smoked meat and especially barbecue brisket. He's owned Restaurants (Barbecue, brewery, fine dining, cafe and catering) in London Ontario, Calgary Alberta & Gabriola Island over the years. Now settled in the Comox Valley and doing what he loves, serving up great food"
+- Image card: _Photo of owner_
 
-4. Operations
+4. Ecommerce
 
-- Heading 2: "Where and When to Find us"
-- Hours of Operation: list
-- Location: google maps embed
+- Heading 2: "What We Do"
+- Paragraph: "At Big Brisket Barbecue, we believe that great barbecue brisket starts with great ingredients. That's why we source only the best quality meats, locally whenever possible, and use fresh, natural ingredients in our rubs, sauces and sides. We also believe in the power of slow-smoking over real wood, which gives our meats their signature flavor and tenderness"
+- 4 Product Cards: _Photo of Food_ w/ labels
 
 5. Contact
 
 - Heading 2: "Contact Us"
-- Link Button: Email Address
-- Link Button: Phone Number
--
+- Contact List: Phone, Address, Email
+- Map: Google Embed
 
 6. Footer
 
