@@ -1,0 +1,104 @@
+/* ----- GLOBAL STYLES ----- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  color: #210f04;
+  line-height: 2rem;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+}
+
+/* ----- TYPOGRAPHY ----- */
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  color: #ede0d4;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #582707;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #582707;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin: 16px 0;
+  padding: 12px 48px;
+}
+
+a.button {
+  color: #ede0d4;
+  background-color: #582707;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* ----- UTILITY ------ */
+
+.content-width {
+  width: 334px;
+  margin: auto;
+}
+
+/* ------ Header ------ */
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav li {
+  color: #000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+a.toggle {
+  margin-right: 50px;
+  padding: 0;
+}
+
+nav .toggle {
+  position: fixed;
+  align-self: flex-end;
+  cursor: pointer;
+  top: 32px;
+}
+
+.show-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 50px;
+}
