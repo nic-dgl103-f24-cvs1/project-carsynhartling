@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Brisket BBQ</title>
+
+    <!--- Style Sheet -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--- Google Fonts Ubuntu and Athiti -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;600;700&family=Ubuntu:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--- Nav Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--- ADD LOGO -->
+      <nav>
+        <ul id="nav-items">
+          <li><a href="web">Menu</a></li>
+          <li><a href="web">About</a></li>
+        </ul>
+        <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+      </nav>
+    </header>
+    <main>
+      <section class="home-hero">
+        <div class="wrapper">
+          <h1>Smoked Meat, Done Right!</h1>
+        </div>
+      </section>
+      <section class="home-action"></section>
+      <section class="home-blog"></section>
+      <section class="home-testimonials"></section>
+      <section class="home-contact"></section>
+    </main>
+    <footer></footer>
+
+    <!--- JS ICON -->
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
