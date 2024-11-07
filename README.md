@@ -59,8 +59,9 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 
 4. Portfolio Blog
 
+- Background Image: _textured smoke_
 - Heading 2: "Smoked Meat, Done Right!"
-- 4 Image cards: _photos of Big Brisket food_
+- 4 Image cards: _photos of Big Brisket food_ w/ Labels
 
 5. Testimonials
 
@@ -89,7 +90,7 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 2. Small Hero
 
 - Heading 2: "Smoked Meat, Done Right!"
-- Background Image: _Close up of smoked Meat_
+- Background Image: _wood pilet_
 
 3. Items
 
@@ -135,7 +136,7 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 
 - Heading 2: "What We Do"
 - Paragraph: "At Big Brisket Barbecue, we believe that great barbecue brisket starts with great ingredients. That's why we source only the best quality meats, locally whenever possible, and use fresh, natural ingredients in our rubs, sauces and sides. We also believe in the power of slow-smoking over real wood, which gives our meats their signature flavor and tenderness"
-- 4 Product Cards: _Photo of Food_ w/ labels
+- 4 Product Cards: _Same as Home Blog_
 
 5. Contact
 
