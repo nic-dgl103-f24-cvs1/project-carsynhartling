@@ -11,7 +11,7 @@ body {
   font-size: 1.6rem;
   margin: 0;
   font-family: "Ubuntu", sans-serif;
-  color: #210f04;
+  color: #efefd0;
   line-height: 2rem;
 }
 
@@ -23,24 +23,30 @@ ul {
 /* ----- TYPOGRAPHY ----- */
 
 h1 {
-  font-size: 3.5rem;
-  line-height: 4rem;
-  color: #ede0d4;
+  font-family: "Athiti", sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  line-height: 6rem;
+  color: #ede0d4;
   margin-top: 0;
 }
 
 h2 {
-  font-size: 2.5rem;
-  color: #582707;
+  font-family: "Athiti", sans-serif;
   font-weight: 600;
-  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #ff6b35;
+  margin: 30px 0;
 }
 
 h3 {
+  font-family: "Athiti", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
   font-size: 2rem;
-  color: #582707;
-  font-weight: 500;
   margin-top: 0;
 }
 
@@ -48,18 +54,12 @@ a {
   color: #000;
   text-decoration: none;
   display: block;
-  margin: 20px 50px 20px 0;
+  margin: 20px 30px 20px 0;
+  padding: 12px 48px;
 }
 
-a.button {
-  color: #ede0d4;
-  background-color: #582707;
-  text-transform: uppercase;
-  border-radius: 5px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1.5rem;
-  margin: 20px 0;
+li {
+  list-style-type: none;
 }
 
 /* ----- UTILITY ------ */
@@ -69,6 +69,21 @@ a.button {
   margin: auto;
 }
 
+.dark-background {
+  background-color: #1b4965;
+}
+
+a.button {
+  color: #ede0d4;
+  background-color: #61a5c2;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
 /* ------ Header ------ */
 
 header {
@@ -76,6 +91,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
   margin-bottom: 10px;
 }
 
@@ -86,7 +102,6 @@ nav {
 
 nav ul {
   color: #000;
-  list-style-type: none;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -94,7 +109,6 @@ nav ul {
 }
 
 a.toggle {
-  margin-right: 50px;
   padding: 0;
 }
 
@@ -121,6 +135,80 @@ h1 {
 }
 
 /* ---- Home Action ---- */
+
+.home-action {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* ---- Home Blog ---- */
+
+.home-blog {
+  text-align: center;
+  padding: 50px;
+}
+
+.home-blog .cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-blog img {
+  border-radius: 10px;
+}
+
+.cards li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
+}
+
+.cards h3 {
+  font-family: "Athiti", sans-serif;
+  font-weight: 700;
+  color: #cae9ff;
+  line-height: 4rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+}
+/* FIX CARDS */
+
+/*---- Home Testimonials ---- */
+
+.home-testimonials {
+  background-image: url(images/smoky.jpg);
+  text-align: center;
+  padding: 50px 0;
+}
+
+.home-testimonials h3 {
+  color: #61a5c2;
+}
+.home-testimonials li {
+  width: 100%;
+  height: 35vh;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* ---- Home Contact ---- */
+
+.home-contact {
+  text-align: center;
+  padding: 50px 0;
+  color: #61a5c2;
+}
+
+.op-hours {
+  margin-top: 10%;
+  border: 3px solid #61a5c2;
+  border-radius: 5px;
+  padding: 10px;
+}
 
 /*---------------- DeskTop Device -----------------------*/
 
