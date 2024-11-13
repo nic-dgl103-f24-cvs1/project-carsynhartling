@@ -26,16 +26,18 @@
 
   <body>
     <header>
-      <img src="images/logo.png" width="200" alt="brand logo" />
-      <a class="button">Order</a>
-      <nav>
-        <ul id="nav-items">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="web">Menu</a></li>
-          <li><a href="web">About</a></li>
-        </ul>
-        <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
-      </nav>
+      <div class="content-width">
+        <img src="images/logo.png" width="200" alt="brand logo" />
+        <a class="button">Order</a>
+        <nav>
+          <ul id="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="web">Menu</a></li>
+            <li><a href="web">About</a></li>
+          </ul>
+          <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="home-hero">
@@ -56,27 +58,23 @@
       </section>
 
       <section class="home-blog">
-        <div class="wrapper content-width">
+        <div class="content-width">
           <h2>What We Do!</h2>
           <ul class="cards">
             <li>
-              <img
-                src="images/home1.jpg"
-                width="100%"
-                alt="slices of brisket"
-              />
+              <img src="images/home1.jpg" width="300" alt="slices of brisket" />
               <h3>Fresh Cooked Brisket</h3>
             </li>
             <li>
-              <img src="Images/home2.jpg" width="100%" alt="black bbq smoker" />
+              <img src="Images/home2.jpg" width="300" alt="black bbq smoker" />
               <h3>Slow-Smoked in a Wood burning Smoker</h3>
             </li>
             <li>
-              <img src="images/home3.jpg" width="100%" alt="seasoning meat" />
+              <img src="images/home3.jpg" width="300" alt="seasoning meat" />
               <h3>Locally Sourced Meats and Spices</h3>
             </li>
             <li>
-              <img src="images/home4.jpg" width="100%" alt="briket being cut" />
+              <img src="images/home4.jpg" width="300" alt="briket being cut" />
               <h3>
                 Open Saturday's<br />
                 11-4
@@ -128,9 +126,21 @@
       </section>
 
       <section class="home-contact">
-        <div class="wrapper content-width">
+        <div class="content-width">
           <h2>Try Us Out</h2>
           <p>Experience the best Barbecue Brisket in the Comox Valley</p>
+
+          <!--- Google Maps Embed Frame -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.4556186247787!2d-124.99382592348657!3d49.70222357145895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813ee4db7cc37%3A0xddce0efbba6f9e5!2s801%20Dingwall%20Rd%2C%20Courtenay%2C%20BC%20V9N%203S4!5e0!3m2!1sen!2sca!4v1731526982653!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
           <ul class="op-hours">
             <li><h3>Hours</h3></li>
             <li>Monday - Friday: <em>CLOSED</em></li>
@@ -142,20 +152,24 @@
       </section>
     </main>
     <footer class="dark-background">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="web">Menu</a></li>
-          <li><a href="web">About</a></li>
-        </ul>
-      </nav>
+      <div class="content-width">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="web">Menu</a></li>
+            <li><a href="web">About</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="border">
-        <p>
-          This is a fictional website that was designed and coded as an
-          educational exercise. It is not intended to be seen outside of the
-          class environment. None of the content and images were approved by the
-          business owner
-        </p>
+        <div class="content-width">
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner
+          </p>
+        </div>
       </div>
       <!--- ADD LIST LINKS-->
     </footer>
