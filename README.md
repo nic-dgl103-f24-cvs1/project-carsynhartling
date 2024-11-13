@@ -26,14 +26,14 @@ It is easy to identify simple design solutions that will help build a more logic
 
 My inspiration for this site is after an old _neighbor_ of mine, [Lil' Ronnies BBQ](https://www.lilronniesbbq.com/). This a local restuarant located in Tofino, BC and was initially just a man and his smoker. Their success breached both from their ability to whip up a hell of a margitas alongside their marketing strategies. They have designed an atmosphere digitally that matches the tone of their Tiki-hut _laid back_ attitudes, touching the hearts of hipsters and hippies alike. Owner, Ronnie Lee, has now gone on to open a catering business aligned with their BBQ and has fused together food with entertainment for all.
 
-For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn polish. The mood will, hopefully, suggest a lively back-yard BBQ feeling while holding a clean-cut and sleek appearance. Business in the front, party in the back.
+For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn polish. The mood will, hopefully, suggest a rustic, vintage BBQ vibe while holding a clean-cut and sleek appearance. Business in the front, party in the back.
 
-- Colors will be a mix of primarily blacks with nuetral browns and accented colors of yellow and salmon pink.
+- Colors will be a mix of blacks with nuetral browns and accented colors of orange and red.
   ![coolers BBQ palette](images/coolers.png)
 
-- Fonts will be a mix between Ubuntu and Athity, both simulate a relaxed typeface and pair nicely as a family.
+- Fonts will be a mix between Slackey and Athiti, both simulate a relaxed, retro typeface and pair nicely as a family.
 
-- Images will be a blend between found and sourced, their website and social media has a selection of their products. Many of the found images are planned to be used as textures. I will use their logo:
+- Images will be a blend between found and sourced, their website and social media has a selection of their products but stray from the aesthetic. Many of the found images are planned to be used as textures but are not limited as such. I will use their logo:
   ![Big Brisket Logo](images/logo.webp)
 
 ## Website Content
