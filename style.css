@@ -46,7 +46,6 @@ h3 {
   font-family: "Athiti", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 2rem;
   margin-top: 0;
 }
 
@@ -149,36 +148,27 @@ h1 {
 
 .home-blog {
   text-align: center;
-  padding: 50px;
-}
-
-.home-blog .cards {
-  display: flex;
-  flex-direction: column;
-}
-
-.home-blog img {
-  border-radius: 10px;
+  padding: 30px 0;
 }
 
 .cards li {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
   position: relative;
   margin-top: 25px;
 }
 
+.home-blog img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .cards h3 {
-  font-family: "Athiti", sans-serif;
-  font-weight: 700;
+  font: 700 2rem/4rem "Athiti", sans-serif;
   color: #cae9ff;
-  line-height: 4rem;
-  text-transform: uppercase;
   position: absolute;
   z-index: 1;
-  display: block;
   width: 100%;
   padding: 8px;
   background-color: #00000068;
@@ -212,6 +202,10 @@ h1 {
   text-align: center;
   padding: 50px 0;
   color: #61a5c2;
+}
+
+iframe {
+  width: 100%;
 }
 
 .op-hours {
@@ -278,7 +272,7 @@ footer .border {
   /* Large Blog */
 
   .home-blog .cards {
-    flex-flow: row wrap;
+    display: flex;
     justify-content: center;
   }
 
