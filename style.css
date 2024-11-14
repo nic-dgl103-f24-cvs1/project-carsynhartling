@@ -10,7 +10,7 @@ html {
 body {
   font-size: 1.6rem;
   margin: 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Athiti", sans-serif;
   color: #292828;
   background-color: #ded4c6;
   line-height: 2rem;
@@ -24,21 +24,21 @@ ul {
 /* ----- TYPOGRAPHY ----- */
 
 h1 {
-  font: 400 3.5rem/6rem "Rubik Dirt", sans-serif;
+  font: 700 3.5rem/6rem "Pridi", sans-serif;
   text-transform: uppercase;
   color: #2b2a2a;
   margin-top: 0;
 }
 
 h2 {
-  font: 600 4rem/5rem "Athiti", sans-serif;
+  font: 600 2.5rem/4rem "Pridi", sans-serif;
   text-transform: uppercase;
   color: #ff6b35;
   margin: 30px 0;
 }
 
 h3 {
-  font-family: "Athiti", sans-serif;
+  font-family: "Pridi", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 0;
@@ -77,6 +77,8 @@ a.button {
   text-decoration: none;
   margin: 20px 0;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .film-layer {
@@ -225,13 +227,14 @@ iframe {
   width: 100%;
 }
 
-.op-hours {
+.op-hours,
+.op-info {
   background-color: #00000068;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  margin-top: 10%;
+  margin-top: 7%;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px 0;
 }
 
 .home-contact p {
