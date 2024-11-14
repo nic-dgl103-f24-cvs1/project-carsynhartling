@@ -31,7 +31,7 @@ For my guy, Big Brisket, I want to fuse this beefy aesthetic with a rugged, worn
 - Colors will be a mix of blacks with nuetral browns and accented colors of orange and red.
   ![coolers BBQ palette](images/coolers.png)
 
-- Fonts will be a mix between Slackey and Athiti, both simulate a relaxed, retro typeface and pair nicely as a family.
+- Fonts will be a mix between Rubik Dark and Athiti, both simulate a relaxed, distressed typeface and pair nicely as a family.
 
 - Images will be a blend between found and sourced, their website and social media has a selection of their products but stray from the aesthetic. Many of the found images are planned to be used as textures but are not limited as such. I will use their logo:
   ![Big Brisket Logo](images/logo.webp)
