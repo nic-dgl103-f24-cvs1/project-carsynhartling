@@ -9,11 +9,12 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <!--- Google Fonts Ubuntu and Athiti -->
+    <!--- Google Fonts Rubik Dirt and Athiti -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;600;700&family=Ubuntu:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;600;700&family=Rubik+Dirt&display=swap"
       rel="stylesheet"
     />
 
@@ -26,28 +27,26 @@
 
   <body>
     <header>
-      <div class="content-width">
-        <img src="images/logo.png" width="200" alt="brand logo" />
-        <a class="button">Order</a>
-        <nav>
-          <ul id="nav-items">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="web">Menu</a></li>
-            <li><a href="web">About</a></li>
-          </ul>
-          <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
-        </nav>
-      </div>
+      <img src="images/logo.png" width="150" alt="brand logo" />
+      <a class="button">Order</a>
+      <nav>
+        <ul id="nav-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="web">Menu</a></li>
+          <li><a href="web">About</a></li>
+        </ul>
+        <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+      </nav>
     </header>
     <main>
       <section class="home-hero">
-        <div class="wrapper content-width">
+        <div class="content-width">
           <h1>Smoked Meat, <br />Done Right!</h1>
         </div>
       </section>
 
       <section class="home-action dark-background">
-        <div class="wrapper content-width">
+        <div class="content-width">
           <h2>Indulge in Mouthwatering BBQ</h2>
           <p>
             Treat yourself to real fire cooked BBQ. Smoked and Sourced 100% in
@@ -63,18 +62,22 @@
           <ul class="cards">
             <li>
               <img src="images/home1.jpg" width="300" alt="slices of brisket" />
+              <div class="film-layer"></div>
               <h3>Fresh Cooked Brisket</h3>
             </li>
             <li>
               <img src="Images/home2.jpg" width="300" alt="black bbq smoker" />
-              <h3>Slow-Smoked in a Wood burning Smoker</h3>
+              <div class="film-layer"></div>
+              <h3>Slow-Smoked with Real Wood</h3>
             </li>
             <li>
               <img src="images/home3.jpg" width="300" alt="seasoning meat" />
-              <h3>Locally Sourced Meats and Spices</h3>
+              <div class="film-layer"></div>
+              <h3>Locally Sourced Meats &amp; Spices</h3>
             </li>
             <li>
               <img src="images/home4.jpg" width="300" alt="briket being cut" />
+              <div class="film-layer"></div>
               <h3>
                 Open Saturday's<br />
                 11-4
@@ -85,9 +88,10 @@
       </section>
 
       <section class="home-testimonials">
-        <div class="wrapper content-width">
+        <div class="content-width">
           <h2>Food That Cares</h2>
           <ul class="customer-reviews">
+            <!---- AI-Generated Fake Reviews -->
             <li>
               <h3>"Top-notch BBQ!"</h3>
               <p>
@@ -106,20 +110,17 @@
                 especially the mac and cheese. Friendly service, great
                 atmosphere. I will definitely be back!
               </p>
+              <p>-<em>Some Guy</em></p>
+            </li>
+            <li>
+              <h3>"You Need To Eat Here"</h3>
               <p>
-                -<em>Some Guy</em>
-                <li>
-                  <h3>"You Need To Eat Here"</h3>
-                  <p>
-                    The Brisket of your dreams! I got the Brisket Sandwhich with
-                    a side of Brisket poutine and their specialty smoked-cola to
-                    drink. Never thought meat could speak with such soul! This
-                    place cooks with their heart and it shines through in every
-                    bite.
-                  </p>
-                  <p>-<em>Santa Claus</em></p>
-                </li>
+                The Brisket of your dreams! I got the Brisket Sandwhich with a
+                side of Brisket poutine and their specialty smoked-cola to
+                drink. Never thought meat could speak with such soul! This place
+                cooks with their heart and it shines through in every bite.
               </p>
+              <p>-<em>Santa Claus</em></p>
             </li>
           </ul>
         </div>
