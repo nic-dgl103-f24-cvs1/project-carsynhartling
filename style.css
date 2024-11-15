@@ -49,8 +49,7 @@ a {
   text-decoration: none;
   font-weight: 600;
   display: block;
-  margin: 20px 30px 20px 0;
-  padding: 12px 48px;
+  padding: 5px 25px;
 }
 
 li {
@@ -100,17 +99,15 @@ header {
   margin-bottom: 10px;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
-}
-
 nav ul {
-  color: #000;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
   display: none;
+}
+
+nav ul li {
+  padding: 8px 0;
 }
 
 a.toggle {
@@ -126,13 +123,14 @@ nav .toggle {
   align-self: flex-end;
   cursor: pointer;
   top: 40px;
+  right: 40px;
 }
 
 .show-items {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 60px;
+  margin-top: 120px;
 }
 
 /* ---- Home Hero ---- */
