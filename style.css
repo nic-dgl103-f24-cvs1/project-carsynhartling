@@ -24,16 +24,18 @@ ul {
 /* ----- TYPOGRAPHY ----- */
 
 h1 {
-  font: 700 3.5rem/6rem "Pridi", sans-serif;
+  font: 400 4rem "Smokum", sans-serif;
   text-transform: uppercase;
   color: #cae9ff;
+  text-shadow: 2px 2px 8px #292929;
   margin-top: 0;
 }
 
 h2 {
-  font: 600 2.5rem/4rem "Pridi", sans-serif;
+  font: 600 3rem/4rem "Athiti", sans-serif;
   text-transform: uppercase;
   color: #ff6b35;
+  text-shadow: 2px 2px 8px #292929;
   margin: 30px 0;
 }
 
@@ -42,6 +44,11 @@ h3 {
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 0;
+}
+
+h4 {
+  font: 400 3rem "Smokum", sans-serif;
+  text-transform: uppercase;
 }
 
 a {
@@ -63,8 +70,8 @@ li {
   margin: auto;
 }
 
-.dark-background {
-  background-color: #292828;
+.light-background {
+  background-color: #bf2921c2;
 }
 
 a.button {
@@ -151,7 +158,7 @@ footer ul {
 
 footer .border {
   font-size: 1.4rem;
-  text-align: center;
+  text-align: left;
   padding: 5px 20px;
   border-top: 3px solid #ded4c6;
 }
@@ -160,57 +167,47 @@ footer .border {
 
 /* ---- Hero ---- */
 
+.home-hero {
+  height: 50vh;
+  position: relative;
+}
+
+.home-hero h1 {
+  position: absolute;
+  bottom: 15vh;
+  left: 26vw;
+}
+
 /* Needs Backgorund Video */
 
 h1 {
   text-align: center;
 }
 
-/* ---- Action ---- */
+/* ---- Home Action ---- */
 
 .home-action {
   text-align: center;
   padding: 50px 0;
 }
 
-/* ----  Blog ---- */
+/* ---- Home Bio -----*/
 
-.home-blog {
-  text-align: center;
+.home-bio {
   padding: 50px 0;
 }
 
-.cards li {
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-top: 25px;
-  border-radius: 10px;
-}
-
-.home-blog img {
+.home-bio img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
 }
 
-.home-blog .film-layer {
-  border-radius: 10px;
-  position: absolute;
-  z-index: 1;
+.home-bio h2 {
+  color: #ded4c6;
 }
 
-.cards h3 {
-  font: 700 4rem "Athiti", sans-serif;
-  color: #cae9ff;
-  position: absolute;
-  z-index: 2;
-  margin: 0 10px;
-}
-
-/*---- Testimonials ---- */
+/*---- Home Testimonials ---- */
 
 .home-testimonials {
   background-image: url(images/woodpile.jpg);
@@ -221,6 +218,7 @@ h1 {
 
 .home-testimonials h3 {
   color: #cae9ff;
+  text-shadow: 2px 2px 8px #ff0000;
 }
 
 .home-testimonials li {
@@ -241,7 +239,7 @@ h1 {
 .home-contact {
   text-align: center;
   padding: 50px 0;
-  color: #cae9ff;
+  color: #f8e8d0;
 }
 
 iframe {
@@ -250,20 +248,67 @@ iframe {
 
 .op-hours,
 .op-info {
-  background-color: #00000068;
+  background-color: #fa3e3e;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   margin-top: 7%;
   border-radius: 5px;
-  padding: 20px 0;
-}
-
-.home-contact p {
-  color: #292828;
+  padding: 20px 50px;
+  width: 100%;
 }
 
 /* || About || */
 
+/* ---- About Hero ---- */
+
+.about-hero {
+  height: 50vh;
+  background-image: url(Images/abouthero.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.about-hero h1 {
+  position: absolute;
+  bottom: 15vh;
+  left: 26vw;
+}
+/* ----  about Blog ---- */
+
+.about-blog {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cards li {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.about-blog img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-blog .film-layer {
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.cards h3 {
+  font: 700 4rem "Athiti", sans-serif;
+  color: #cae9ff;
+  position: absolute;
+  z-index: 2;
+  margin: 0 10px;
+}
 /*---------------- DeskTop Device -----------------------*/
 
 @media only screen and (min-width: 1200px) {
@@ -301,21 +346,21 @@ iframe {
 
   /* Large Hero */
 
-  /* Large Blog */
+  /* Large Bio */
 
-  .home-blog .cards {
+  .home-bio .wrapper {
     display: flex;
-    justify-content: center;
+    text-align: left;
   }
 
-  .home-blog li {
-    width: 30%;
-    margin: 10px;
+  .bio-info {
+    margin: 0 10px;
   }
 
-  .home-blog img {
-    height: 100%;
+  .home-bio img {
+    width: 50%;
   }
+
   /* Large Testimonials */
 
   .customer-reviews {
@@ -331,26 +376,40 @@ iframe {
   /* Large Contact */
 
   .home-contact {
-    height: 70vh;
     padding: 50px 0;
   }
 
+  .contact-map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   iframe {
-    float: left;
     width: 50%;
-  }
-
-  .contact-info {
-    float: right;
-  }
-
-  .contact-info a.button {
-    margin: 80px 0;
   }
 
   /* Large Footer */
 
   footer ul {
     flex-direction: row;
+  }
+
+  /* || About || */
+
+  /* LRG About-Blog */
+
+  .about-blog .cards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-blog li {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .about-blog img {
+    height: 100%;
   }
 }
