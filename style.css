@@ -13,7 +13,6 @@ body {
   font-family: "Athiti", sans-serif;
   color: #ded4c6;
   background-color: #292929;
-  line-height: 2rem;
 }
 
 ul {
@@ -36,19 +35,23 @@ h2 {
   text-transform: uppercase;
   color: #ff6b35;
   text-shadow: 2px 2px 8px #292929;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 h3 {
-  font-family: "Pridi", sans-serif;
-  font-weight: 600;
+  font: 400 3rem "Smokum", sans-serif;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 600 3rem "Pridi", sans-serif;
   text-transform: uppercase;
   margin-top: 0;
 }
 
-h4 {
-  font: 400 3rem "Smokum", sans-serif;
-  text-transform: uppercase;
+p {
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 a {
@@ -100,12 +103,10 @@ a.button {
 /* ------ Header ------ */
 
 header {
-  height: 20vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  margin-bottom: 10px;
 }
 
 nav ul {
@@ -132,14 +133,14 @@ nav .toggle {
   align-self: flex-end;
   cursor: pointer;
   top: 40px;
-  right: 40px;
+  right: 20px;
 }
 
 .show-items {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 120px;
+  margin-right: 35px;
 }
 
 /* ----- Footer ----- */
@@ -149,10 +150,8 @@ footer {
 }
 
 footer ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  text-align: center;
   padding: 20px 0;
 }
 
@@ -167,15 +166,9 @@ footer .border {
 
 /* ---- Hero ---- */
 
-.home-hero {
-  height: 50vh;
-  position: relative;
-}
-
 .home-hero h1 {
-  position: absolute;
-  bottom: 15vh;
-  left: 26vw;
+  position: center;
+  padding-top: 50%;
 }
 
 /* Needs Backgorund Video */
@@ -198,6 +191,7 @@ h1 {
 }
 
 .home-bio img {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   width: 100%;
   border-radius: 5px;
   margin: 10px 0;
@@ -210,13 +204,13 @@ h1 {
 /*---- Home Testimonials ---- */
 
 .home-testimonials {
-  background-image: url(images/woodpile.jpg);
+  background-image: url(images/woodgrain.jpg);
   background-size: cover;
   text-align: center;
   padding: 50px 0;
 }
 
-.home-testimonials h3 {
+.home-testimonials h4 {
   color: #cae9ff;
   text-shadow: 2px 2px 8px #ff0000;
 }
@@ -265,15 +259,38 @@ iframe {
   height: 50vh;
   background-image: url(Images/abouthero.jpg);
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
-.about-hero h1 {
-  position: absolute;
-  bottom: 15vh;
-  left: 26vw;
+.opacity-layer {
+  background-color: #292929;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
 }
-/* ----  about Blog ---- */
+.about-hero h1 {
+  position: center;
+  padding-top: 50%;
+}
+
+/* ---- About Statement ---- */
+
+.about-statement {
+  padding: 50px 0;
+}
+
+.about-statement h2 {
+  color: #f8e8d0;
+}
+
+.about-statement img {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* ---- About Blog ---- */
 
 .about-blog {
   text-align: center;
@@ -305,6 +322,7 @@ iframe {
 .cards h3 {
   font: 700 4rem "Athiti", sans-serif;
   color: #cae9ff;
+  text-shadow: 2px 2px 8px #292929;
   position: absolute;
   z-index: 2;
   margin: 0 10px;
@@ -354,7 +372,8 @@ iframe {
   }
 
   .bio-info {
-    margin: 0 10px;
+    align-self: center;
+    margin-right: 15px;
   }
 
   .home-bio img {
@@ -392,10 +411,38 @@ iframe {
   /* Large Footer */
 
   footer ul {
-    flex-direction: row;
+    display: flex;
+    justify-content: center;
   }
 
   /* || About || */
+
+  /* LRG About-Hero */
+
+  .about-hero {
+    position: relative;
+  }
+
+  .about-hero h1 {
+    position: center;
+    padding-top: 0;
+  }
+
+  /* LRG About-Statement */
+
+  .about-statement .wrapper {
+    display: flex;
+    text-align: left;
+  }
+
+  .statement-info {
+    align-self: center;
+    margin-right: 15px;
+  }
+
+  .about-statement img {
+    width: 50%;
+  }
 
   /* LRG About-Blog */
 
