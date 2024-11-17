@@ -71,6 +71,8 @@ li {
 .content-width {
   width: 334px;
   margin: auto;
+  height: 100%;
+  padding: 50px 0;
 }
 
 .light-background {
@@ -106,7 +108,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
 }
 
 nav ul {
@@ -152,7 +153,6 @@ footer {
 footer ul {
   display: block;
   text-align: center;
-  padding: 20px 0;
 }
 
 footer .border {
@@ -165,11 +165,6 @@ footer .border {
 /* || Homepage || */
 
 /* ---- Hero ---- */
-
-.home-hero h1 {
-  position: center;
-  padding-top: 50%;
-}
 
 /* Needs Backgorund Video */
 
@@ -185,10 +180,6 @@ h1 {
 }
 
 /* ---- Home Bio -----*/
-
-.home-bio {
-  padding: 50px 0;
-}
 
 .home-bio img {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -207,7 +198,6 @@ h1 {
   background-image: url(images/woodgrain.jpg);
   background-size: cover;
   text-align: center;
-  padding: 50px 0;
 }
 
 .home-testimonials h4 {
@@ -232,7 +222,6 @@ h1 {
 
 .home-contact {
   text-align: center;
-  padding: 50px 0;
   color: #f8e8d0;
 }
 
@@ -251,34 +240,93 @@ iframe {
   width: 100%;
 }
 
+/* || Menu || */
+
+/* ---- Menu Hero ---- */
+
+.menu-hero {
+  background-image: url(Images/abouthero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ---- Menu Blog ---- */
+
+.menu-blog {
+  text-align: right;
+}
+
+.cards li {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.menu-blog img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-blog .film-layer {
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.cards h3 {
+  font: 700 4rem "Athiti", sans-serif;
+  color: #cae9ff;
+  text-shadow: 2px 2px 8px #292929;
+  position: absolute;
+  z-index: 2;
+  margin: 0 10px;
+}
+
+/* ---- Menu Items ---- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: left;
+}
+
+thead {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ded4c6;
+  color: #292929;
+}
+
+th,
+td {
+  font: 400 2rem "Pridi", sans-serif;
+  padding: 20px 15px;
+  border-bottom: 2px solid #fa3e3e;
+}
+
+a.button.email {
+  display: none;
+}
+
 /* || About || */
 
 /* ---- About Hero ---- */
 
 .about-hero {
-  height: 50vh;
-  background-image: url(Images/abouthero.jpg);
+  background-image: url(Images/woodpile.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-.opacity-layer {
-  background-color: #292929;
-  opacity: 0.5;
-  width: 100%;
-  height: 100%;
-}
-.about-hero h1 {
-  position: center;
-  padding-top: 50%;
-}
-
 /* ---- About Statement ---- */
-
-.about-statement {
-  padding: 50px 0;
-}
 
 .about-statement h2 {
   color: #f8e8d0;
@@ -302,12 +350,6 @@ label {
   font-size: 1.8rem;
 }
 
-.about-email .wrapper h2 {
-  color: #292929;
-  text-shadow: none;
-  text-align: left;
-}
-
 .about-email .wrapper {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -315,6 +357,12 @@ label {
   margin: 0 auto;
   padding: 30px;
   position: relative;
+}
+
+.about-email .wrapper h2 {
+  color: #292929;
+  text-shadow: none;
+  text-align: left;
 }
 
 input[type="text"],
@@ -354,42 +402,14 @@ input[type="submit"] {
   right: 30px;
 }
 
-/* ---- About Blog ---- */
+/* ---- About Map ---- */
 
-.about-blog {
-  text-align: center;
-  padding: 50px 0;
+.about-map h2 {
+  color: #ded4c6;
 }
 
-.cards li {
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-top: 25px;
-  border-radius: 10px;
-}
-
-.about-blog img {
+iframe {
   width: 100%;
-  border-radius: 10px;
-}
-
-.about-blog .film-layer {
-  border-radius: 10px;
-  position: absolute;
-  z-index: 1;
-}
-
-.cards h3 {
-  font: 700 4rem "Athiti", sans-serif;
-  color: #cae9ff;
-  text-shadow: 2px 2px 8px #292929;
-  position: absolute;
-  z-index: 2;
-  margin: 0 10px;
 }
 /*---------------- DeskTop Device -----------------------*/
 
@@ -404,9 +424,10 @@ input[type="submit"] {
 
   .content-width {
     width: 1130px;
+    height: 100%;
   }
 
-  /*  Large Header */
+  /* LRG Header */
 
   header {
     display: flex;
@@ -426,9 +447,18 @@ input[type="submit"] {
     display: flex;
   }
 
-  /* Large Hero */
+  /* LRG Hero */
 
-  /* Large Bio */
+  .home-hero {
+    width: 100%;
+  }
+
+  .home-hero h1 {
+    padding: 10% 100px;
+    width: 100%;
+  }
+
+  /* LRG Bio */
 
   .home-bio .wrapper {
     display: flex;
@@ -444,7 +474,7 @@ input[type="submit"] {
     width: 50%;
   }
 
-  /* Large Testimonials */
+  /* LRG Testimonials */
 
   .customer-reviews {
     display: flex;
@@ -456,7 +486,7 @@ input[type="submit"] {
     width: 30%;
   }
 
-  /* Large Contact */
+  /* LRG Contact */
 
   .home-contact {
     padding: 50px 0;
@@ -472,11 +502,63 @@ input[type="submit"] {
     width: 50%;
   }
 
-  /* Large Footer */
+  /* LRG Footer */
 
   footer ul {
     display: flex;
     justify-content: center;
+  }
+
+  /* || Menu || */
+
+  /* LRG Menu Hero */
+
+  .menu-hero {
+    width: 100%;
+  }
+
+  .menu-hero h1 {
+    padding: 10% 100px;
+    width: 100%;
+  }
+
+  a.button.cell {
+    display: none;
+  }
+
+  a.button.email {
+    display: inline-block;
+  }
+
+  /* LRG Menu Blog */
+
+  .menu-blog {
+    text-align: center;
+  }
+
+  .menu-blog .cards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-blog li {
+    width: 30%;
+    margin: 10px;
+  }
+
+  .menu-blog img {
+    height: 100%;
+  }
+
+  /* LRG Menu Items */
+
+  .menu-items {
+    text-align: center;
+  }
+
+  .menu-footer {
+    display: flex;
+    justify-content: space-between;
   }
 
   /* || About || */
@@ -484,12 +566,12 @@ input[type="submit"] {
   /* LRG About-Hero */
 
   .about-hero {
-    position: relative;
+    width: 100%;
   }
 
   .about-hero h1 {
-    position: center;
-    padding-top: 0;
+    padding: 10% 100px;
+    width: 100%;
   }
 
   /* LRG About-Statement */
@@ -508,19 +590,13 @@ input[type="submit"] {
     width: 50%;
   }
 
-  /* LRG About-Blog */
+  /* LRG About Map */
 
-  .about-blog .cards {
-    display: flex;
-    justify-content: center;
+  .about-map {
+    text-align: center;
   }
 
-  .about-blog li {
-    width: 30%;
-    margin: 10px;
-  }
-
-  .about-blog img {
-    height: 100%;
+  .about-map iframe {
+    width: 100%;
   }
 }
