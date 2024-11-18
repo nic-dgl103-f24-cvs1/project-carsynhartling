@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Big Brisket BBQ</title>
 
-    <!--- Style Sheet -->
+    <!-- Style Sheet -->
 
     <link rel="stylesheet" href="style.css" />
 
-    <!--- Google Fonts Pridi, Athiti, Smokum -->
+    <!-- Google Fonts Pridi, Athiti, Smokum -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,158 +18,159 @@
       rel="stylesheet"
     />
 
-    <!--- Nav Icon -->
+    <!-- Nav Icon -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-</html>
 
-<body>
-  <header>
-    <img src="images/logo.png" width="150" alt="brand logo" />
-    <a href="mailto:bigbrisketbbq@gmail.com" class="button email">Order</a>
-    <nav>
-      <ul id="nav-items">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-      <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="menu-hero">
-      <div class="content-width">
-        <h1>Did Someone Say Food Truck?</h1>
-      </div>
-    </section>
-
-    <section class="menu-blog">
-      <div class="content-width">
-        <h2>Big Brisket. Bigger Flavour.</h2>
-        <h3>
-          we believe that great barbecue brisket starts with great ingredients.
-        </h3>
-        <ul class="cards">
-          <li>
-            <img src="images/home1.jpg" width="300" alt="slices of brisket" />
-            <div class="film-layer"></div>
-            <h3>Fresh Cooked Brisket</h3>
-          </li>
-          <li>
-            <img src="Images/home2.jpg" width="300" alt="black bbq smoker" />
-            <div class="film-layer"></div>
-            <h3>Slow-Smoked with Real Wood</h3>
-          </li>
-          <li>
-            <img src="images/home3.jpg" width="300" alt="seasoning meat" />
-            <div class="film-layer"></div>
-            <h3>Locally Sourced Meats &amp; Spices</h3>
-          </li>
-          <li>
-            <img src="images/home4.jpg" width="300" alt="briket being cut" />
-            <div class="film-layer"></div>
-            <h3>
-              Open Saturday's<br />
-              11-4
-            </h3>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="menu-items content-width">
-      <h2>Menu</h2>
-      <h3>Grillin' and Chillin' with the Best Brisket in Town</h3>
-      <p>
-        Each handheld comes with a side choice of: Fries, Coleslaw or House
-        Beans
-      </p>
-      <table>
-        <thead>
-          <tr>
-            <th scope="col">Item</th>
-            <th scope="col">Details</th>
-            <th scope="col">Price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Brisket Sandwich</td>
-            <td>
-              Chopped Brisket served on a tasty bun with our house slaw. Served
-              with your choice of a side
-            </td>
-            <td>12.50</td>
-          </tr>
-          <tr>
-            <td>Brisket Hoagie</td>
-            <td>
-              Slighty more Brisket, sliced, served on a Hoagie with cheese,
-              onions, house pickles. Served with your choice of a side and a
-              side of our house gravy for dipping
-            </td>
-            <td>15.50</td>
-          </tr>
-          <tr>
-            <td>Smash Burger Single</td>
-            <td>
-              Our own recipe of ground beef and pork with house seasonings,
-              cheese, onion, pickles, tomato, lettuce. Served with your choice
-              of a side
-            </td>
-            <td>9.90</td>
-          </tr>
-          <tr>
-            <td>Smash Burger Double</td>
-            <td>
-              2 Patties with Cheese, our own recipe of ground beef and pork with
-              house seasonings, cheese, onion, pickles, tomato, lettuce. Served
-              with your choice of a side
-            </td>
-            <td>12.50</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="menu-footer">
-        <p>Please call <b>250-714-5999</b> to place an Order for Pick-up</p>
-        <a class="button cell" href="tel:250-714-5999">Order</a>
-        <a class="button email" href="mailto:bigbrisketbbq@gmail.com">Order</a>
-      </div>
-    </section>
-    <section class="menu-offers light-background"></section>
-  </main>
-
-  <footer class="dark-background">
-    <div class="wrapper content-width">
+  <body>
+    <header>
+      <img src="images/logo.png" width="150" alt="brand logo" />
+      <a href="mailto:bigbrisketbbq@gmail.com" class="button email">Order</a>
       <nav>
-        <ul>
+        <ul id="nav-items">
           <li><a href="index.html">Home</a></li>
-          <li><a href="web">Menu</a></li>
-          <li><a href="web">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
+        <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
       </nav>
-    </div>
-    <div class="border">
-      <div class="content-width">
-        <p>
-          This is a fictional website that was designed and coded as an
-          educational exercise. It is not intended to be seen outside of the
-          class environment. None of the content and images were approved by the
-          business owner
-        </p>
-      </div>
-    </div>
-  </footer>
+    </header>
 
-  <!--- JS ICON -->
-  <script>
-    function showNav() {
-      var element = document.getElementById("nav-items");
-      element.classList.toggle("show-items");
-    }
-  </script>
-</body>
+    <main>
+      <section class="menu-hero">
+        <div class="content-width">
+          <h1>Did Someone Say Food Truck?</h1>
+        </div>
+      </section>
+
+      <section class="menu-blog">
+        <div class="content-width">
+          <h2>Big Brisket. Bigger Flavour.</h2>
+          <h3>
+            we believe that great barbecue brisket starts with great
+            ingredients.
+          </h3>
+          <ul class="cards">
+            <li>
+              <img src="images/home1.jpg" width="300" alt="slices of brisket" />
+              <div class="film-layer"></div>
+              <h3>Fresh Cooked Brisket</h3>
+            </li>
+            <li>
+              <img src="Images/home2.jpg" width="300" alt="black bbq smoker" />
+              <div class="film-layer"></div>
+              <h3>Slow-Smoked with Real Wood</h3>
+            </li>
+            <li>
+              <img src="images/home3.jpg" width="300" alt="seasoning meat" />
+              <div class="film-layer"></div>
+              <h3>Locally Sourced Meats &amp; Spices</h3>
+            </li>
+            <li>
+              <img src="images/home4.jpg" width="300" alt="briket being cut" />
+              <div class="film-layer"></div>
+              <h3>
+                Open Saturday's<br />
+                11-4
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-items content-width">
+        <h2>Menu</h2>
+        <h3>Grillin' and Chillin' with the Best Brisket in Town</h3>
+        <p>
+          Each handheld comes with a side choice of: Fries, Coleslaw or House
+          Beans
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Details</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Brisket Sandwich</td>
+              <td>
+                Chopped Brisket served on a tasty bun with our house slaw.
+                Served with your choice of a side
+              </td>
+              <td>12.50</td>
+            </tr>
+            <tr>
+              <td>Brisket Hoagie</td>
+              <td>
+                Slighty more Brisket, sliced, served on a Hoagie with cheese,
+                onions, house pickles. Served with your choice of a side and a
+                side of our house gravy for dipping
+              </td>
+              <td>15.50</td>
+            </tr>
+            <tr>
+              <td>Smash Burger Single</td>
+              <td>
+                Our own recipe of ground beef and pork with house seasonings,
+                cheese, onion, pickles, tomato, lettuce. Served with your choice
+                of a side
+              </td>
+              <td>9.90</td>
+            </tr>
+            <tr>
+              <td>Smash Burger Double</td>
+              <td>
+                2 Patties with Cheese, our own recipe of ground beef and pork
+                with house seasonings, cheese, onion, pickles, tomato, lettuce.
+                Served with your choice of a side
+              </td>
+              <td>12.50</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="menu-footer">
+          <p>Please call <b>250-714-5999</b> to place an Order for Pick-up</p>
+          <a class="button cell" href="tel:250-714-5999">Order</a>
+          <a class="button email" href="mailto:bigbrisketbbq@gmail.com"
+            >Order</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="dark-background">
+      <div class="wrapper content-width">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="web">Menu</a></li>
+            <li><a href="web">About</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="border">
+        <div class="content-width">
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--JS ICON -->
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
