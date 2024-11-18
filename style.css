@@ -44,7 +44,7 @@ h3 {
 }
 
 h4 {
-  font-family: 600 3rem "Pridi", sans-serif;
+  font: 600 3rem "Pridi", sans-serif;
   text-transform: uppercase;
   margin-top: 0;
 }
