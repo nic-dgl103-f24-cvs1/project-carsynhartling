@@ -166,20 +166,19 @@ footer .border {
   border-top: 3px solid #ded4c6;
 }
 
-/* ------- BLOG ------ */
+/* ------- Offers Icons ------ */
 
-.blog {
+.offers {
   text-align: center;
   color: #cae9ff;
 }
 
-.blog h2 {
+.offers h2 {
   margin-top: 0;
   color: #f8e8d0;
 }
 
-.blog li {
-  list-style-type: none;
+.offers li {
   margin: 20px 20px;
   padding: 20px 0;
 }
@@ -249,8 +248,6 @@ video {
   width: 100%;
   margin-top: 20px;
   padding: 20px;
-  position: relative;
-  z-index: 2;
 }
 /* ---- Home Contact ---- */
 
@@ -319,7 +316,6 @@ a.button.email {
   background-image: url(Images/woodpile.jpg);
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 /* ---- About Statement ---- */
@@ -404,6 +400,7 @@ input[type="submit"]:hover {
   background-color: #cae9ff;
   color: #292929;
 }
+
 /* ---- About Map ---- */
 
 .about-map h2 {
@@ -413,6 +410,7 @@ input[type="submit"]:hover {
 iframe {
   width: 100%;
 }
+
 /*---------------- DeskTop Device -----------------------*/
 
 @media only screen and (min-width: 1200px) {
@@ -471,18 +469,18 @@ iframe {
     color: #fa3e3e;
   }
 
-  /* LRG Blog */
+  /* LRG Offers Icon */
 
-  .blog {
+  .offers {
     text-align: center;
   }
 
-  .blog ul {
+  .offers ul {
     display: flex;
     justify-content: space-around;
   }
 
-  .blog li {
+  .offers li {
     width: calc(33.33% - 20px);
   }
 
