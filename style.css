@@ -69,7 +69,7 @@ li {
 /* ----- UTILITY ------ */
 
 .content-width {
-  width: 334px;
+  max-width: 334px;
   margin: auto;
   height: 100%;
   padding: 50px 0;
@@ -91,13 +91,6 @@ a.button {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-
-.film-layer {
-  border-radius: 10px;
-  background-color: #00000068;
-  width: 100%;
-  height: 100%;
 }
 
 /* || SiteWide || */
@@ -155,6 +148,11 @@ footer ul {
   text-align: center;
 }
 
+footer a.social {
+  text-align: center;
+  margin-top: 10px;
+}
+
 footer .border {
   font-size: 1.4rem;
   text-align: left;
@@ -166,17 +164,30 @@ footer .border {
 
 /* ---- Hero ---- */
 
-/* Needs Backgorund Video */
+.home-hero {
+  height: 75vh;
+}
 
-h1 {
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.home-hero h1 {
+  margin: 20vh 0;
   text-align: center;
 }
 
 /* ---- Home Action ---- */
 
 .home-action {
+  clear: auto;
   text-align: center;
-  padding: 50px 0;
 }
 
 /* ---- Home Bio -----*/
@@ -271,12 +282,7 @@ iframe {
 .menu-blog img {
   width: 100%;
   border-radius: 10px;
-}
-
-.about-blog .film-layer {
-  border-radius: 10px;
-  position: absolute;
-  z-index: 1;
+  z-index: -1;
 }
 
 .cards h3 {
@@ -345,7 +351,8 @@ a.button.email {
   margin-bottom: 50px;
 }
 
-label {
+label,
+fieldset {
   color: #292929;
   font-size: 1.8rem;
 }
@@ -367,7 +374,8 @@ label {
 
 input[type="text"],
 select,
-textarea {
+textarea,
+fieldset {
   width: 100%;
   padding: 12px;
   border: 1px solid #292929;
@@ -402,6 +410,10 @@ input[type="submit"] {
   right: 30px;
 }
 
+input[type="submit"]:hover {
+  background-color: #cae9ff;
+  color: #292929;
+}
 /* ---- About Map ---- */
 
 .about-map h2 {
@@ -423,9 +435,16 @@ iframe {
   }
 
   .content-width {
-    width: 1130px;
+    max-width: 1130px;
     height: 100%;
   }
+
+  a.button:hover {
+    background-color: #cae9ff;
+    color: #fa3e3e;
+  }
+
+  /* || SITE-WIDE || */
 
   /* LRG Header */
 
@@ -446,6 +465,23 @@ iframe {
   nav ul {
     display: flex;
   }
+
+  nav ul li:hover {
+    border-bottom: 1px solid #ded4c6;
+  }
+
+  /* LRG Footer */
+
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer a:hover {
+    color: #fa3e3e;
+  }
+
+  /* || HOMEPAGE || */
 
   /* LRG Hero */
 
@@ -500,13 +536,6 @@ iframe {
 
   iframe {
     width: 50%;
-  }
-
-  /* LRG Footer */
-
-  footer ul {
-    display: flex;
-    justify-content: center;
   }
 
   /* || Menu || */
