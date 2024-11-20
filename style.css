@@ -25,6 +25,7 @@ ul {
 h1 {
   font: 400 4rem "Smokum", sans-serif;
   text-transform: uppercase;
+  text-align: center;
   color: #cae9ff;
   text-shadow: 2px 2px 8px #292929;
   margin-top: 0;
@@ -180,7 +181,6 @@ video {
 
 .home-hero h1 {
   margin: 20vh 0;
-  text-align: center;
 }
 
 /* ---- Home Action ---- */
@@ -490,6 +490,7 @@ iframe {
   }
 
   .home-hero h1 {
+    margin: 0;
     padding: 10% 100px;
     width: 100%;
   }
