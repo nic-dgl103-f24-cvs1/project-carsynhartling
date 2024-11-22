@@ -156,6 +156,7 @@ footer ul {
 
 footer .contact li {
   padding: 10px;
+  text-align: right;
 }
 
 footer a.social {
@@ -264,15 +265,13 @@ iframe {
   width: 100%;
 }
 
-.op-hours,
-.op-info {
-  background-color: #fa3e3e;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  margin-top: 7%;
-  border-radius: 5px;
-  padding: 20px 50px;
-  width: 100%;
+.contact-info h3 {
+  border-bottom: 1px solid #fa3e3e;
+}
+
+.contact-info a:hover {
+  color: #fa3e3e;
+  text-decoration: underline;
 }
 
 /* || Menu || */
