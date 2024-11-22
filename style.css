@@ -154,6 +154,10 @@ footer ul {
   text-align: center;
 }
 
+footer .contact li {
+  padding: 10px;
+}
+
 footer a.social {
   text-align: center;
   margin-top: 10px;
@@ -445,7 +449,7 @@ iframe {
     display: none;
   }
 
-  header a.button {
+  header address {
     display: inline-block;
     order: 1;
   }
@@ -460,13 +464,26 @@ iframe {
 
   /* LRG Footer */
 
-  footer ul {
+  footer .wrapper {
     display: flex;
+  }
+
+  footer .nav {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+  }
+
+  footer .contact li {
+    padding: 10px;
   }
 
   footer a:hover {
     color: #fa3e3e;
+  }
+
+  footer a.social {
+    margin-top: 0;
   }
 
   /* LRG Offers Icon */
