@@ -82,7 +82,7 @@ li {
 
 a.button {
   font: 600 1.8rem "Athiti", sans-serif;
-  color: #cae9ff;
+  color: #ebf3f9;
   background-color: #fa3e3e;
   text-transform: uppercase;
   border-radius: 5px;
@@ -193,12 +193,12 @@ footer .border {
 /* ---- Hero ---- */
 
 .home-hero {
-  height: 75vh;
+  margin-bottom: 10%;
 }
 
 video {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -213,7 +213,6 @@ video {
 /* ---- Home Action ---- */
 
 .home-action {
-  clear: auto;
   text-align: right;
 }
 
