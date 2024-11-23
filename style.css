@@ -198,7 +198,7 @@ footer .border {
 
 video {
   width: 100%;
-  height: 95vh;
+  height: 100%;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -213,7 +213,7 @@ video {
 /* ---- Home Action ---- */
 
 .home-action {
-  margin-top: 25px;
+  background-color: #292929;
   text-align: right;
 }
 
