@@ -82,7 +82,7 @@ li {
 
 a.button {
   font: 600 1.8rem "Athiti", sans-serif;
-  color: #ebf3f9;
+  color: #f8e8d0;
   background-color: #fa3e3e;
   text-transform: uppercase;
   border-radius: 5px;
@@ -193,7 +193,8 @@ footer .border {
 /* ---- Hero ---- */
 
 .home-hero {
-  margin-bottom: 10%;
+  height: 100%;
+  margin-bottom: 5%;
 }
 
 video {
@@ -232,7 +233,7 @@ video {
 /*---- Home Testimonials ---- */
 
 .home-testimonials {
-  background-image: url(Images/woodgrain.jpg);
+  background-image: url(Images/woodgrain.webp);
   background-size: cover;
   text-align: center;
 }
@@ -278,7 +279,7 @@ iframe {
 /* ---- Menu Hero ---- */
 
 .menu-hero {
-  background-image: url(Images/papertexture.jpg);
+  background-image: url(Images/papertexture.webp);
   background-size: cover;
   background-position: center;
 }
@@ -315,7 +316,7 @@ a.button.email {
 /* ---- About Hero ---- */
 
 .about-hero {
-  background-image: url(Images/woodpile.jpg);
+  background-image: url(Images/woodpile.webp);
   background-size: cover;
   background-position: center;
 }
