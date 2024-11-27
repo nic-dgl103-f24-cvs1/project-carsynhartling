@@ -156,11 +156,9 @@ footer ul {
 
 footer .contact li {
   padding: 10px;
-  text-align: right;
 }
 
 footer a.social {
-  text-align: center;
   margin-top: 10px;
 }
 
@@ -470,11 +468,10 @@ iframe {
   footer .nav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
   }
 
-  footer .contact li {
-    padding: 10px;
+  footer .contact {
+    text-align: right;
   }
 
   footer a:hover {
