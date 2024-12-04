@@ -1,0 +1,637 @@
+/* ----- GLOBAL STYLES ----- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  font-family: "Athiti", sans-serif;
+  color: #ded4c6;
+  background-color: #292929;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+}
+
+/* ----- TYPOGRAPHY ----- */
+
+h1 {
+  font: 400 4rem "Smokum", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #cae9ff;
+  text-shadow: 2px 2px 8px #292929;
+  margin-top: 0;
+}
+
+h2 {
+  font: 400 3rem/4rem "Pridi", sans-serif;
+  text-transform: uppercase;
+  color: #ff6b35;
+  text-shadow: 2px 2px 8px #292929;
+  margin: 20px 0;
+}
+
+h3 {
+  font: 400 3rem "Smokum", sans-serif;
+  text-transform: uppercase;
+}
+
+h4 {
+  font: 600 3rem "Pridi", sans-serif;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+a {
+  color: #ded4c6;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  padding: 5px 25px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* ----- UTILITY ------ */
+
+.content-width {
+  max-width: 334px;
+  margin: auto;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.light-background {
+  background-color: #bf2921c2;
+}
+
+a.button {
+  font: 600 1.8rem "Athiti", sans-serif;
+  color: #f8e8d0;
+  background-color: #fa3e3e;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 20px 0;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* || SiteWide || */
+
+/* ------ Header ------ */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+nav ul li {
+  padding: 8px 0;
+}
+
+a.toggle {
+  padding: 0;
+}
+
+header a.button {
+  display: none;
+}
+
+nav .toggle {
+  position: absolute;
+  justify-self: flex-end;
+  align-self: flex-end;
+  cursor: pointer;
+  top: 40px;
+  right: 20px;
+}
+
+.show-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 35px;
+}
+
+header img {
+  margin: 5px 0;
+}
+
+/* ----- Footer ----- */
+
+footer {
+  border-top: 1px solid #ded4c6;
+}
+
+footer ul {
+  display: block;
+  text-align: center;
+}
+
+footer .contact li {
+  padding: 10px;
+}
+
+footer a.social {
+  margin-top: 10px;
+}
+
+footer .border {
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 5px 20px;
+  border-top: 3px solid #ded4c6;
+}
+
+/* ------- Offers Icons ------ */
+
+.offers {
+  text-align: center;
+  color: #cae9ff;
+}
+
+.offers h2 {
+  margin-top: 0;
+  color: #f8e8d0;
+}
+
+.offers li {
+  margin: 20px 20px;
+  padding: 20px 0;
+}
+
+/* || Homepage || */
+
+/* ---- Hero ---- */
+
+.home-hero {
+  margin-bottom: 25px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.home-hero h1 {
+  margin: 20vh 0;
+}
+
+/* ---- Home Action ---- */
+
+.home-action {
+  background-color: #292929;
+  text-align: right;
+}
+
+/* ---- Home Bio -----*/
+
+.home-bio img {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.home-bio h2 {
+  color: #ded4c6;
+}
+
+/*---- Home Testimonials ---- */
+
+.home-testimonials {
+  background-image: url(Images/woodgrain.webp);
+  background-size: cover;
+  text-align: center;
+}
+
+.home-testimonials h4 {
+  color: #cae9ff;
+  text-shadow: 2px 2px 8px #ff0000;
+}
+
+.home-testimonials li {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: #f8e8d0;
+  background-color: #292828a2;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+}
+/* ---- Home Contact ---- */
+
+.home-contact {
+  text-align: center;
+  color: #f8e8d0;
+}
+
+iframe {
+  width: 100%;
+}
+
+.contact-info h3 {
+  border-bottom: 1px solid #fa3e3e;
+}
+
+.contact-info a:hover {
+  color: #fa3e3e;
+  text-decoration: underline;
+}
+
+/* || Menu || */
+
+/* ---- Menu Hero ---- */
+
+.menu-hero {
+  background-image: url(Images/papertexture.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ---- Menu Items ---- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: left;
+}
+
+thead {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ded4c6;
+  color: #292929;
+}
+
+th,
+td {
+  font: 400 2rem "Pridi", sans-serif;
+  padding: 20px 15px;
+  border-bottom: 2px solid #fa3e3e;
+}
+
+a.button.email {
+  display: none;
+}
+
+/* || About || */
+
+/* ---- About Hero ---- */
+
+.about-hero {
+  background-image: url(Images/woodpile.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ---- About Statement ---- */
+
+.about-statement h2 {
+  color: #f8e8d0;
+}
+
+.about-statement img {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* ----- About Email ----*/
+
+.about-email h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+label,
+fieldset {
+  color: #292929;
+  font-size: 1.8rem;
+}
+
+.about-email .wrapper {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+}
+
+.about-email .wrapper h2 {
+  color: #292929;
+  text-shadow: none;
+  text-align: left;
+}
+
+input[type="text"],
+select,
+textarea,
+fieldset {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  margin: 5px 0 20px 0;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+  margin: 5px 0 20px 0;
+}
+
+.label-required {
+  color: red;
+}
+
+input:required {
+  border: 1px solid red;
+}
+
+input[type="submit"] {
+  background-color: #fa3e3e;
+  color: #f2f2f2;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  right: 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: #cae9ff;
+  color: #292929;
+}
+
+/* ---- About Map ---- */
+
+.about-map h2 {
+  color: #ded4c6;
+}
+
+iframe {
+  width: 100%;
+}
+
+/*---------------- DeskTop Device -----------------------*/
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 6.6rem;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%;
+  }
+
+  .content-width {
+    max-width: 1130px;
+    height: 100%;
+  }
+
+  a.button:hover {
+    background-color: #cae9ff;
+    color: #fa3e3e;
+  }
+
+  /* || SITE-WIDE || */
+
+  /* LRG Header */
+
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav .toggle {
+    display: none;
+  }
+
+  header address {
+    display: inline-block;
+    order: 1;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li:hover {
+    border-bottom: 1px solid #ded4c6;
+  }
+
+  /* LRG Footer */
+
+  footer .wrapper {
+    display: flex;
+  }
+
+  footer .nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer .contact {
+    text-align: right;
+  }
+
+  footer a:hover {
+    color: #fa3e3e;
+  }
+
+  footer a.social {
+    margin-top: 0;
+  }
+
+  /* LRG Offers Icon */
+
+  .offers {
+    text-align: center;
+  }
+
+  .offers ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .offers li {
+    width: calc(33.33% - 20px);
+  }
+
+  /* || HOMEPAGE || */
+
+  /* LRG Hero */
+
+  .home-hero {
+    width: 100%;
+  }
+
+  .home-hero h1 {
+    margin: 0;
+    padding: 10% 100px;
+    width: 100%;
+  }
+
+  /* LRG ACTION */
+
+  .home-action {
+    text-align: center;
+  }
+  .home-action p {
+    margin: auto 50px;
+  }
+
+  /* LRG Bio */
+
+  .home-bio .wrapper {
+    display: flex;
+    text-align: left;
+  }
+
+  .bio-info {
+    align-self: center;
+    margin-right: 15px;
+  }
+
+  .home-bio img {
+    width: 50%;
+  }
+
+  /* LRG Testimonials */
+
+  .customer-reviews {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+
+  .customer-reviews li {
+    width: 30%;
+  }
+
+  /* LRG Contact */
+
+  .home-contact {
+    padding: 50px 0;
+  }
+
+  .contact-map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  iframe {
+    width: 50%;
+  }
+
+  /* || Menu || */
+
+  /* LRG Menu Hero */
+
+  .menu-hero {
+    width: 100%;
+  }
+
+  .menu-hero h1 {
+    padding: 10% 100px;
+    width: 100%;
+  }
+
+  a.button.cell {
+    display: none;
+  }
+
+  a.button.email {
+    display: inline-block;
+  }
+
+  /* LRG Menu Items */
+
+  .menu-items {
+    text-align: center;
+  }
+
+  .menu-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* || About || */
+
+  /* LRG About-Hero */
+
+  .about-hero {
+    width: 100%;
+  }
+
+  .about-hero h1 {
+    padding: 10% 100px;
+    width: 100%;
+  }
+
+  /* LRG About-Statement */
+
+  .about-statement .wrapper {
+    display: flex;
+    text-align: left;
+  }
+
+  .statement-info {
+    align-self: center;
+    margin-right: 15px;
+  }
+
+  .about-statement img {
+    width: 50%;
+  }
+
+  /* LRG About Map */
+
+  .about-map {
+    text-align: center;
+  }
+
+  .about-map iframe {
+    width: 100%;
+  }
+}

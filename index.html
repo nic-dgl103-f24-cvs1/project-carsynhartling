@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Brisket BBQ</title>
+
+    <!--- Style Sheet -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--- Google Fonts Pridi, Athiti, Smokum -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Athiti:wght@400;600;700&family=Pridi:wght@400;600&family=Smokum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--- Nav Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img src="Images/logo.png" width="120" alt="brand logo" />
+      <address>
+        <a class="button email" href="mailto:bigbrisketbbq@gmail.com">Order</a>
+      </address>
+      <nav>
+        <ul id="nav-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home-hero content-width">
+        <!-- Video sourced from Pexels.com-->
+        <video autoplay muted loop title="slow-motion video of bbq cooking">
+          <source src="Images/bbqvideo.mp4" type="video/mp4" />
+        </video>
+        <h1>Experience Comox Valley's Best Brisket On Wheels</h1>
+      </section>
+
+      <section class="home-action">
+        <div class="content-width">
+          <h2>Indulge in Mouthwatering BBQ</h2>
+          <!-- Chat GBT Content Here-->
+          <p>
+            Craving mouthwatering, slow-smoked perfection? Come to Big Brisket
+            BBQ, where every bite is packed with flavor. Our custom 500 gallon
+            smoker loads more than 200 pounds of protein at a time, making more
+            than enough BBQ for everyone!
+          </p>
+          <a class="button" href="menu.html">Menu</a>
+        </div>
+      </section>
+
+      <section class="home-bio light-background">
+        <div class="wrapper content-width">
+          <div class="bio-info">
+            <h2>Truckin' Good BBQ</h2>
+            <h3>
+              Rollin' Through Flavor Town with Big Brisket BBQ — Where Smoky
+              Goodness Meets the Open Road
+            </h3>
+            <!-- Chat GBT Content Here -->
+            <p>
+              Welcome to Big Brisket BBQ, baby! Where the smoke is thick, the
+              flavors are off the charts, and the brisket is next level! This
+              ain't your average food truck; we’re bringing you tender,
+              fall-apart brisket and a menu loaded with all the BBQ classics you
+              crave.
+            </p>
+          </div>
+          <img
+            src="Images/foodtruck.webp"
+            width="400"
+            alt="Big Brisket BBQ food truck"
+          />
+        </div>
+      </section>
+
+      <!--- Icons Courtesy of Vecteezy.com --->
+      <section class="offers">
+        <div class="content-width">
+          <h2>What We Can Offer</h2>
+          <ul>
+            <li>
+              <img
+                src="Images/truck.png"
+                width="65"
+                alt="vector icon of a food truck"
+              />
+              <p>
+                <b>Food Truck Service</b>
+              </p>
+            </li>
+            <li>
+              <img
+                src="Images/meat.png"
+                width="65"
+                alt="vector icon of steak"
+              />
+              <p><b>Custom Brisket Orders</b></p>
+            </li>
+            <li>
+              <img src="Images/bbq.png" width="55" alt="vector icon of bbq" />
+              <p>
+                <b>Smoker Rentals</b>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="home-testimonials">
+        <div class="content-width">
+          <h2>Food That Cares</h2>
+          <h3>Sharing Happiness in Every Bite</h3>
+          <ul class="customer-reviews">
+            <!---- Chat GBT Fake Reviews -->
+            <li>
+              <h4>"Top-notch BBQ!"</h4>
+              <p>
+                Hands down the best BBQ in town. The brisket was perfectly
+                cooked, juicy, and flavorful. The burnt ends were amazing, and
+                the sides—especially the cornbread—were spot on. Great service
+                too. Will back for sure!
+              </p>
+              <p>-<em>Scoobie Doobie</em></p>
+            </li>
+            <li>
+              <h4>"Incredible brisket!"</h4>
+              <p>
+                Big Brisket BBQ has the best brisket I've ever had! Super
+                tender, smoky, and full of flavor. The sides were great too,
+                especially the mac and cheese. Friendly service, great
+                atmosphere. I will definitely be back!
+              </p>
+              <p>-<em>Some Guy</em></p>
+            </li>
+            <li>
+              <h4>"You Need To Eat Here"</h4>
+              <p>
+                I got the Brisket Sandwhich with a side of Brisket poutine and
+                their specialty smoked-cola to drink. Never thought meat could
+                speak with such soul! This place cooks with their heart and it
+                shines through in every bite.
+              </p>
+              <p>-<em>Santa Claus</em></p>
+            </li>
+            <li>
+              <h4>"Best BBQ in The Valley"</h4>
+              <p>
+                Big Brisket BBQ has quickly become my go-to spot for BBQ in the
+                area. The sides are as good as the meat, no going wrong here.
+                Highly recommend!
+              </p>
+              <p>-<em>Pajama Sam</em></p>
+            </li>
+            <li>
+              <h4>"The Golden Smoker"</h4>
+              <p>
+                Welcome to Flavortown, folks! The brisket is so tender it
+                practically melts in your mouth, and that smoky flavor? Off the
+                charts! The sides? Dont even get me started—those baked beans
+                are straight fire. This joint is a must-try!
+              </p>
+              <p>-<em>Guy Ferrari</em></p>
+            </li>
+            <li>
+              <h4>"Best I've Ever Had"</h4>
+              <p>
+                Big Brisket BBQ nails it every time! The brisket is
+                melt-in-your-mouth perfect, and the sides are amazing—especially
+                the mac &amp; cheese. Definitely my go-to BBQ spot!
+              </p>
+              <p>-<em>Sassy</em></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="home-contact content-width">
+        <h2>Visit Chow-Town every Saturday</h2>
+        <!-- Chat GBT content Here-->
+        <h3>Don’t let this flavor train pass you by!</h3>
+        <div class="contact-map">
+          <!--- Google Maps Embed Frame -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.4556186247787!2d-124.99382592348657!3d49.70222357145895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813ee4db7cc37%3A0xddce0efbba6f9e5!2s801%20Dingwall%20Rd%2C%20Courtenay%2C%20BC%20V9N%203S4!5e0!3m2!1sen!2sca!4v1731526982653!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Google Map Location"
+          ></iframe>
+
+          <div class="contact-info">
+            <div>
+              <h3>Contact</h3>
+              <address>
+                <b>250-714-5999</b>
+                <a href="mailto:bigbrisketbbq@gmail.com" target="_blank"
+                  >bigbrisketbbq@gmail.com</a
+                >
+              </address>
+            </div>
+            <div class="op-hours">
+              <h3>Hours</h3>
+              <ul>
+                <li>Monday - Friday: <em>CLOSED</em></li>
+                <li>Saturday: <b>11 - 4</b></li>
+                <li>Sunday: <em>CLOSED</em></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrapper content-width">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a
+              class="social"
+              href="https://www.instagram.com/bigbrisketbarbecue/"
+              target="_blank"
+              aria-label="Instagram Page"
+              ><i class="fa fa-instagram" style="font-size: 36px"></i
+            ></a>
+          </li>
+        </ul>
+        <ul class="contact">
+          <li><b>250-714-5999</b></li>
+          <li>bigbrisketbbq@gmail.com</li>
+          <li>
+            801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada
+          </li>
+        </ul>
+      </div>
+
+      <div class="border">
+        <div class="content-width">
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--- JS ICON -->
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
